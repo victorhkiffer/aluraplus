@@ -155,3 +155,80 @@ body {
     background-color: var(--cor-mudanca-botao);
     color: var(--cor-de-fundo);
 }
+
+@media (max-width: 768px){
+    .container{
+        display: block;
+        height: auto;
+        padding: 2em 1em;
+    }
+
+    .container__caixa{
+        margin-left: 0;
+        padding: 0 1em;
+        text-align: center; 
+    }
+
+    .secundario {
+        margin: 2em 1em;
+        display:block;
+        text-align: center;
+        
+    }
+
+    .dispositivos__listas{
+        display: block;
+        gap: 2em;
+        
+    }
+
+
+
+    .rodape {
+        margin: 3em 1em;
+    }
+}
+
+
+@media (max-width: 430px){
+    .container{
+        display: block;
+        height: auto;
+        padding: 2em 1em;
+    }
+
+    .container__caixa{
+        margin-left: 0;
+        padding: 0 1em;
+        text-align: center; 
+    }
+
+    .secundario {
+        margin: 2em 1em;
+        display:block;
+        text-align: center;
+        
+    }
+
+    .secundario__plataformas{
+        width: 21em;
+        margin-left: 4em;
+    }
+
+    .secundario__notebook{
+        width: 21em;
+        margin-left: 2em;
+    }
+
+    .dispositivos__listas{
+        display: block;
+        gap: 2em;
+        
+    }
+
+
+
+    .rodape {
+        margin: 3em 1em;
+    }
+}
